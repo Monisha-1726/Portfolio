@@ -1,0 +1,298 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+#ms
+{
+    position:fixed;
+}
+#forimg{
+    height:390px;
+    width:350px;
+    position:relative;
+    left:80px;
+    background-color: white;
+    background-image: url("img/Snapchat-2044431467~2.jpg");
+    background-size: cover;
+    border-radius: 200px 200px 200px 200px;
+    box-shadow: 4px 4px 10px red;
+    background-blend-mode: black;
+}
+.navbar {
+    background: scarlet(#FF2400);
+    padding: 20px;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    color: #ff4a57 !important;
+    
+}
+
+.navbar-nav .nav-link {
+    position: relative;
+    color: white;
+    margin-right: 15px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.8) 50%, transparent 50%), url('background.jpg') no-repeat center center/cover;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-text span {
+    color: white;
+}
+
+.hero-text p {
+    margin-top: 15px;
+    font-size: 1.1rem;
+}
+
+.buttons .btn {
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.profile-img {
+    width: 250px;
+    max-width: 250px;
+    object-fit: cover;
+    border:100px solid rgba(255,255,255,0.1);
+    box-shadow: 0px 0px 15px ruby;
+}
+
+.chat-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.chat-bubble {
+    background: rgb(199, 22, 22);
+    color: black;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.chat-icon {
+    width: 50px;
+    border-radius: 50%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #fff;
+}
+
+#about {
+    background: black;
+    padding: 60px 5;
+}
+
+#about img {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px black;
+}
+
+#about h2 {
+    font-size: 2rem;
+    color: white;
+}
+
+#about p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    left: 500px;
+
+}
+
+.btn-primary {
+    background-color: white;
+    border-color: black;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    border-color: black;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.skills-section {
+    padding: 50px 10;
+}
+
+.skills-diagram {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    color: aliceblue;
+    margin: 0 auto;
+}
+
+.skill-item {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    box-shadow: 1px 1px 10px white ;
+}
+
+.skill-item.center {
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-20%, -20%);
+    border-radius: 50%;
+    overflow:visible;
+    border: 3px solid white;
+}
+
+.skill-item.center img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    color: #adb5bd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: #0f172a;
+    color: white;
+}
+
+.navbar {
+    background-color:#0f172a!important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.portfolio h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #1e293b;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.dark-card {
+    background-color: #212529;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+}
+
+.dark-input {
+    background-color: #2c2f33;
+    color: white;
+    border: none;
+}
+
+.dark-input::placeholder {
+    color: #adb5bd;
+}
+
+.dark-input:focus {
+    background-color: #2c2f33;
+    color: white;
+    border: 1px solid ruby;
+    box-shadow: none;
+}
+
+.contact-info {
+    background-color: #181a1b;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: ruby;
+}
+
+.btn-warning {
+    background-color: ruby;
+    border: black;
+}
+
+.btn-warning:hover {
+    background-color: ruby;
+}
